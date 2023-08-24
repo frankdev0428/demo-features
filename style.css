@@ -1,0 +1,19 @@
+
+body {
+    background-color: red;
+}
+.container { 
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    margin: 11rem;
+    padding: 4rem;
+    border-radius: 15px;
+    background-color:bisque;
+    box-shadow: 3px 3px bisque, -1em 0 .4em olive;
+    text-align: center;
+}
+button { 
+    width: 130px;
+    font-weight: 500;
+}
