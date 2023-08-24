@@ -3,7 +3,6 @@ body {
     background-color: red;
 }
 .container { 
-    border: 1px solid black;
     width: 100%;
     height: auto;
     margin: 11rem;
@@ -16,4 +15,6 @@ body {
 button { 
     width: 130px;
     font-weight: 500;
+    margin: 1rem;
+    margin-top: 1rem;
 }

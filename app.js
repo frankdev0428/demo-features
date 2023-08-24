@@ -1,14 +1,27 @@
    let count = document.querySelector('#count');
-   let countNum = document.querySelector('#countNumber');
+   let num = document.getElementById('countNum');
    let btnDanger = document.querySelector('#btnDanger');
    let btnPrimary = document.querySelector('#btnPrimary');
+   let btmSaving = document.querySelector('#btnSaving')
+   let counting = 0;
+   const colorArr = ['#eab676','#abdbe3','#544828']
+   btnPrimary.addEventListener('click', () => {
+      counting = counting + 1;
+      num.innerText = counting;
+      
+   })
+  
+   btnDanger.addEventListener('click' ,() => {
+    counting = counting - 1;
+    num.innerText = counting;
+    num.style.color = 'red';
+   })
+   btnSaving.addEventListener('click', () => {
+   /// save num to array and display 
+      
+   })
 
    
-   const increase = () => 
-   {
-    count = 0;
-    countNum = countNum + 1;
-   }
-   const decrease = () => {
-     countNum = countNum  - 1;
-   }
+
+   
+   
