@@ -17,7 +17,6 @@
     num.style.color = 'red';
    })
    btnSaving.addEventListener('click', () => {
-   /// save num to array and display 
       
    })
 
