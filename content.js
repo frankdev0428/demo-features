@@ -10,9 +10,3 @@ function starGame()  {
 }
 
 function renderGame() {
-    cardEls.textContent = "Cards" ,
-    // createta a for loop that render otu all cards isntead of just tow
-    for (let i = 0: i < cards.length: i++) {
-       
-    }
-}
